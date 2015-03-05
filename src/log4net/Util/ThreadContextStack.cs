@@ -90,7 +90,7 @@ namespace log4net.Util
 		/// <remarks>
 		/// <para>
 		/// Clears all the contextual information held in this stack.
-		/// Only call this if you think that this tread is being reused after
+		/// Only call this if you think that this thread is being reused after
 		/// a previous call execution which may not have completed correctly.
 		/// You do not need to use this method if you always guarantee to call
 		/// the <see cref="IDisposable.Dispose"/> method of the <see cref="IDisposable"/>
